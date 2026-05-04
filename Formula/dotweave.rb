@@ -1,23 +1,23 @@
 class Dotweave < Formula
   desc "Git-backed configuration synchronization tool for dotfiles"
   homepage "https://dotweave.tinyrack.net"
-  version "0.39.32"
+  version "0.39.33"
 
   on_macos do
     on_arm do
-      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.32/dotweave-darwin-arm64"
-      sha256 "675560a0cc962ebd7c60a29a83b773d8efa676273d233654ef78a2aecbeda047"
+      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.33/dotweave-darwin-arm64"
+      sha256 "9af180a9b792f9bdd5415ac1e7f26265248b1c87df7f89fc752700eec5188979"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.32/dotweave-linux-x64"
-      sha256 "44cde265fe2d694370caaec01e622eb9aa0f0dfc15fca6855caa72122c006590"
+      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.33/dotweave-linux-x64"
+      sha256 "a5e93b696ae0962514fa4624fef27e8968993b24f23ad4ed715154dc53d610ee"
     end
     on_arm do
-      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.32/dotweave-linux-arm64"
-      sha256 "f92aba5ce1c5a2174cc9c2253ec37665e98853cd65f0b29f2c2992472add3926"
+      url "https://github.com/tinyrack-net/dotweave/releases/download/v0.39.33/dotweave-linux-arm64"
+      sha256 "352d837eb377fedd719813ff301891816888f5d4e6867db109aa8f644c971745"
     end
   end
 
