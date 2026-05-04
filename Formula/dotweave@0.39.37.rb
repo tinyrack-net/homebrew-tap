@@ -1,7 +1,9 @@
-class Dotweave < Formula
+class DotweaveAT03937 < Formula
   desc "Git-backed configuration synchronization tool for dotfiles"
   homepage "https://dotweave.tinyrack.net"
   version "0.39.37"
+  keg_only :versioned_formula
+
 
   on_macos do
     on_arm do
