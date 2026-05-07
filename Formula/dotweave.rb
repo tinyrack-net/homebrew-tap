@@ -36,7 +36,6 @@ class Dotweave < Formula
       bin.install "dotweave-linux-arm64" => "dotweave"
     end
   end
-  end
 
   test do
     system "#{bin}/dotweave", "--version"
