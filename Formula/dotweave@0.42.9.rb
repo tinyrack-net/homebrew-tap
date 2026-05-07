@@ -32,9 +32,9 @@ class DotweaveAT0429 < Formula
       bin.install "dotweave-macos-arm64" => "dotweave"
     elsif OS.mac? && Hardware::CPU.intel?
       bin.install "dotweave-macos-x64" => "dotweave"
-    elsif OS.linux && Hardware::CPU.intel?
+    elsif OS.linux? && Hardware::CPU.intel?
       bin.install "dotweave-linux-x64" => "dotweave"
-    elsif OS.linux && Hardware::CPU.arm?
+    elsif OS.linux? && Hardware::CPU.arm?
       bin.install "dotweave-linux-arm64" => "dotweave"
     end
   end
