@@ -1,7 +1,9 @@
-class Proxer < Formula
+class ProxerAT0100 < Formula
   desc "Reverse tunnel CLI for HTTP, SSE, and WebSocket traffic"
   homepage "https://github.com/tinyrack-net/proxer"
   version "0.10.0"
+  keg_only :versioned_formula
+
 
   on_macos do
     on_arm do
