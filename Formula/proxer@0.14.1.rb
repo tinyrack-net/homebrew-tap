@@ -1,7 +1,9 @@
-class Proxer < Formula
+class ProxerAT0141 < Formula
   desc "Self-hosted reverse tunnel for HTTP, SSE, and WebSocket services"
   homepage "https://proxer.tinyrack.net"
   version "0.14.1"
+  keg_only :versioned_formula
+
 
   on_macos do
     on_arm do
