@@ -1,8 +1,8 @@
 cask "coder" do
-  version "0.4.1"
-  sha256 "cd28f77ed9a0659a27a48730d6a0d74d6256bcecf54a5d56c4b4f5def87f23eb"
+  version "0.5.0"
+  sha256 "658df6ff04b1b31099d05997a20326963e76e3cf9399ab90bb5e3b358fd07e1e"
 
-  url "https://github.com/tinyrack-net/coder/releases/download/v0.4.1/Coder-macos-arm64.zip"
+  url "https://github.com/tinyrack-net/coder/releases/download/v0.5.0/Coder-macos-arm64.zip"
   name "Coder"
   desc "Local-first AI coding agent with an always-on daemon"
   homepage "https://github.com/tinyrack-net/coder"
