@@ -1,23 +1,23 @@
 class CoderCli < Formula
   desc "Command line that hosts and administers a Tinyrack Coder daemon"
   homepage "https://github.com/tinyrack-net/coder"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/tinyrack-net/coder/releases/download/v0.5.0/coder-cli-macos-x64.tar.gz"
-      sha256 "fb316d37f407bd7add594f9871f235147b65ce2f823cb07c1e0cabb7dee89eb4"
+      url "https://github.com/tinyrack-net/coder/releases/download/v0.6.0/coder-cli-macos-x64.tar.gz"
+      sha256 "a908db7f13d43ca8f4058562f9e313188ed3e9c85d066943ded201dd27b5e5f9"
     end
     on_arm do
-      url "https://github.com/tinyrack-net/coder/releases/download/v0.5.0/coder-cli-macos-arm64.tar.gz"
-      sha256 "48dcc43f9afdb4f54d075c7a1ab3eb2b89876ca3c71f2e11b3f3c58b1740c2ba"
+      url "https://github.com/tinyrack-net/coder/releases/download/v0.6.0/coder-cli-macos-arm64.tar.gz"
+      sha256 "df33cac4d00edf4d9c2dfb050cec47546f4c8d894e003edc42c402ddaedb19e6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tinyrack-net/coder/releases/download/v0.5.0/coder-cli-linux-x64.tar.gz"
-      sha256 "bfc840f92edae0afe9ed8d5fed1fa683b41aeae618f20662099870e22c56f98f"
+      url "https://github.com/tinyrack-net/coder/releases/download/v0.6.0/coder-cli-linux-x64.tar.gz"
+      sha256 "bd2d9afde1a8fbc5cb51a07ede2e79e3acc6ab4c46da46d946d70e6593d8be03"
     end
   end
 
