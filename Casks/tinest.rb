@@ -1,11 +1,11 @@
 cask "tinest" do
-  version "0.7.0"
-  sha256 "3857e196666caeef2f82559a77079ce02a73aa0a9dd403c8ee3afc4061eab89d"
+  version "0.8.1"
+  sha256 "4347076e0f05f0772146bca7abefe31c021385b92e3b253bb829eaee072afc2c"
 
-  url "https://github.com/tinyrack-net/coder/releases/download/v0.7.0/Tinest-macos-arm64.zip"
+  url "https://github.com/tinyrack-net/tinest/releases/download/v0.8.1/Tinest-macos-arm64.zip"
   name "Tinest"
   desc "Local-first AI coding agent with an always-on daemon"
-  homepage "https://github.com/tinyrack-net/tinest"
+  homepage "https://github.com/tinyrack-net/coder"
 
   livecheck do
     url :url
