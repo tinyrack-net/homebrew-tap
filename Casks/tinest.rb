@@ -5,7 +5,7 @@ cask "tinest" do
   url "https://github.com/tinyrack-net/tinest/releases/download/v0.11.0/Tinest-macos-arm64.zip"
   name "Tinest"
   desc "Local-first AI coding agent with an always-on daemon"
-  homepage "https://github.com/tinyrack-net/coder"
+  homepage "https://github.com/tinyrack-net/tinest"
 
   livecheck do
     url :url
