@@ -1,23 +1,23 @@
 class TinestCli < Formula
   desc "Command line that hosts and administers a Tinest daemon"
   homepage "https://github.com/tinyrack-net/tinest"
-  version "0.11.0"
+  version "0.12.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/tinyrack-net/tinest/releases/download/v0.11.0/tinest-cli-macos-x64.tar.gz"
-      sha256 "c5c4bd353de5903ca858633eb79daa8365182301dd23e4f504247ba434c8f927"
+      url "https://github.com/tinyrack-net/tinest/releases/download/v0.12.0/tinest-cli-macos-x64.tar.gz"
+      sha256 "486b1e766070f3fe34ed2316b0fbf22111effab07012109d8973031a8faa0b58"
     end
     on_arm do
-      url "https://github.com/tinyrack-net/tinest/releases/download/v0.11.0/tinest-cli-macos-arm64.tar.gz"
-      sha256 "e9fbc4bd6fa256251390792ccf81ea65e2a0d8edf7ef4d57adb8f3534c135739"
+      url "https://github.com/tinyrack-net/tinest/releases/download/v0.12.0/tinest-cli-macos-arm64.tar.gz"
+      sha256 "baad1dfa1432e987ce098a7ca0847775a1b987c1219befa05341a84faed0067f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tinyrack-net/tinest/releases/download/v0.11.0/tinest-cli-linux-x64.tar.gz"
-      sha256 "e29e5ca522b1e49b0208037e8a08c855de37f1e153f46ee4f1cfb3ef64141c93"
+      url "https://github.com/tinyrack-net/tinest/releases/download/v0.12.0/tinest-cli-linux-x64.tar.gz"
+      sha256 "9b28782e9b7e21ce5db4bb8a18728a31a31196498dd91928e83d4222e2895468"
     end
   end
 

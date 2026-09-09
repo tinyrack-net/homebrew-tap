@@ -1,8 +1,8 @@
 cask "tinest" do
-  version "0.11.0"
-  sha256 "e1882f56f77593c841462b2a6b7d98d86ad094b9f1085654e207ee754418add2"
+  version "0.12.0"
+  sha256 "2047b8228fbcb7456006b00d13f887f137e9b1eb580099b9ad03379f58debebd"
 
-  url "https://github.com/tinyrack-net/tinest/releases/download/v0.11.0/Tinest-macos-arm64.zip"
+  url "https://github.com/tinyrack-net/tinest/releases/download/v0.12.0/Tinest-macos-arm64.zip"
   name "Tinest"
   desc "Local-first AI coding agent with an always-on daemon"
   homepage "https://github.com/tinyrack-net/tinest"
