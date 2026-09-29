@@ -1,8 +1,8 @@
 cask "mac-cjkv-input-switcher" do
-  version "0.1.11"
-  sha256 "a01f3e2308fee026c2a48d151c359939e9373c7b53b637bce03706657d746783"
+  version "0.2.0"
+  sha256 "933a2d0eaeda6f87034903a03f117d7d05e164054d68430a8f96ceda3808ec99"
 
-  url "https://github.com/tinyrack-net/mac-cjkv-input-switcher/releases/download/v0.1.11/MacCJKVInputSwitcher-0.1.11.dmg"
+  url "https://github.com/tinyrack-net/mac-cjkv-input-switcher/releases/download/v0.2.0/MacCJKVInputSwitcher-0.2.0.dmg"
   name "Mac CJKV Input Switcher"
   desc "Menu bar input source switcher for macOS"
   homepage "https://github.com/tinyrack-net/mac-cjkv-input-switcher"
